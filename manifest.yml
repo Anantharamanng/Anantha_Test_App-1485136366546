@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Anantha_Test_App
+  host: AnanthTest
+  disk_quota: 1024M
+  services:
+  - Anantha_Test_App-cloudantNoSQLDB
+  - Anantha_Test_App-iotf-service
